@@ -15,8 +15,13 @@ The goal of this folder is to build both:
 job_prep/
 │
 ├── ai/                  # AI & machine learning practice implementations
-│   ├── CNN.py           
-│   └── RNN.py          
+│   ├── CNN.ipynb
+│   ├── CNN.py 
+│   ├── FFNN.py 
+│   ├── Pytorch.py       
+│   ├── numpy_practice.py 
+│   └── practice.py      # General practice scripts
+│    
 │
 ├── leet/                # Algorithm and data structure practice
 │   ├── 1d_dynamic/
