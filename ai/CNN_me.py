@@ -7,7 +7,6 @@ def conv2d_forward(input, kernel, stride=1, padding=0):
     if padding != 0:
         input = np.pad(input, pad_width=padding, mode='constant', constant_values=0)
     
-    print("Conv Input shape:", input.shape)
 
     output_height = int(((input.shape[0] - kernel.shape[0]) / stride) + 1)
     output_width = int(((input.shape[1] - kernel.shape[1]) / stride) + 1)
@@ -117,6 +116,10 @@ def test_conv2d_forward():
         [2, 2, 0],
         [0, 1, 2]
     ])
+    print("\n===== INPUT MATRIX =====")
+    print(input1)
+    print("\n===== KERNEL/FILTER MATRIX =====")
+    print(kernel1)
 
     print("\n===== TEST 1: NO PADDING =====")
     output1 = conv2d_forward(input1, kernel1, stride=1, padding=0)
