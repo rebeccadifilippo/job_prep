@@ -126,12 +126,12 @@ def test_conv2d_forward():
     print("Output:\n", output1)
     test_pipeline(output1)
 
-    print("\n===== TEST 2: WITH PADDING =====")
+    '''print("\n===== TEST 2: WITH PADDING =====")
     output2 = conv2d_forward(input1, kernel1, stride=1, padding=1)
     print("Output:\n", output2)
     test_pipeline(output2)
 
-    ''' print("\n===== TEST 3: STRIDE 2 =====")
+    print("\n===== TEST 3: STRIDE 2 =====")
     output3 = conv2d_forward(input1, kernel1, stride=2, padding=0)
     print("Output:\n", output3)
     test_pipeline(output3)'''
