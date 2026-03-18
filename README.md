@@ -57,7 +57,4 @@ The `leet/` directory is organized by common algorithm patterns used in technica
 ## 🤖 AI Folder
 
 The `ai/` directory contains implementations of foundational neural network architectures and experiments.
-These files are intended to support interview preparation by demonstrating understanding of machine learning concepts and the ability to implement models in code.
-
----
-
+These files are intended
